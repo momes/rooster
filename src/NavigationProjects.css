@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.nav {
+    display: flex;
+    width: 100%;
+    
+}
+.navbar-nav {
+    background-color: none !important;
+    color: white;
+    min-height: 5vh;
+    max-height: 10vh;
+    width: 100vw;
+    display:flex !important;
+    justify-content: space-between !important;
+    text-decoration: none !important;
+}
+
+.nav-link {
+        font-family: 'Bungee', cursive;
+        font-size: 1.5em;
+        margin: .5em auto; 
+        text-decoration: none !important;
+}

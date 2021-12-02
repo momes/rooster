@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.Home {
+    display: block;
+    height: 50vh;
+    width: 80vw;
+    margin: 1% auto;
+    justify-content: center;
+    text-align: center;
+    padding:5%;
+}
+
+.title {
+    font-family: 'Bungee', cursive;
+    font-size: 7em;
+    margin: .5em auto;
+}
+
+.name {
+    margin: 0 0;
+    padding: 0;
+    mix-blend-mode: difference; 
+}

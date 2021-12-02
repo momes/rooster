@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.nav {
+    display: flex;
+    width: 100%;
+    
+}
+.navbar-nav {
+    background-color: none !important;
+    color: white;
+    height: 10vh;
+    width: 100%;
+    display:flex !important;
+    justify-content: space-between !important;
+    text-decoration: none !important;
+}
+
+.words {
+        font-family: 'Bungee', cursive;
+        color: rgb(68, 190, 88);
+}
