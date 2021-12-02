@@ -34,7 +34,7 @@ function Store() {
            management@nickdorian.com</a></span>. Thanks for your support!</h2>
         </Row>
         <Row style={{height: "60vh", marginBottom: "10vh", marginTop:"2vw"}}>
-          <Row><h3>Rooster Cream T-Shirt (S/M/L/XL)</h3></Row>
+          <Row><h3>Rooster Cream T-Shirt (S/M/L/XL) $25</h3></Row>
           <Row>
           <Col>
           <img 
@@ -53,7 +53,7 @@ function Store() {
          </Row>
 
          <Row style={{height: "60vh", marginBottom: "10vh", marginTop:"2vw"}}>
-          <Row><h3>Rooster Pink Long Sleeve Shirt (S/M/L/XL)</h3></Row>
+          <Row><h3>Rooster Pink Long Sleeve Shirt (S/M/L/XL) $35</h3></Row>
           <Row>
           <Col>
           <img 
@@ -65,7 +65,7 @@ function Store() {
         <Col>
         </Col></Row>
         <Row style={{height: "60vh", marginBottom: "10vh", marginTop:"2vw"}}>
-          <Row><h3>Planet Stardom Black Long Sleeve Shirt (S/M/L/XL)</h3></Row>
+          <Row><h3>Planet Stardom Black Long Sleeve Shirt (S/M/L/XL) $20</h3></Row>
           <Row>
           <Col>
           <img 
@@ -79,7 +79,7 @@ function Store() {
         </Col></Row>
          </Row>
          <Row style={{height: "60vh", marginBottom: "30vh", marginTop:"2vw"}}>
-          <Row><h3>Planet Stardom Canvas Tote</h3></Row>
+          <Row><h3>Planet Stardom Canvas Tote $15</h3></Row>
           <Row>
           <Col>
           <img 
