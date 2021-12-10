@@ -51,8 +51,8 @@ function Randomizer(props) {
         let randTop;
 
         while (!randLeft || !randTop) {
-          randLeft = (Math.floor(Math.random() * 10) * 10) - 10;
-          randTop = (Math.floor(Math.random() * 10) * 10 )- 10;
+          randLeft = (Math.floor(Math.random() * 20) * 5) - 10;
+          randTop = (Math.floor(Math.random() * 20) * 5 )- 10;
         }
         setAssets((oldAssets) => ({...oldAssets, [assetNum]: [randLeft,randTop]}));
         setAddAsset(false);
@@ -67,7 +67,7 @@ function Randomizer(props) {
         <img className="RandomAsset" 
               src={process.env.PUBLIC_URL + `/ccc-assets/${asset}.png`}
               alt={`${asset}country-chain-chapel`}
-              style={{position: "absolute",
+              style={{position: "fixed",
                   left: `${assets[asset][0]}%`,
                   top: `${assets[asset][1]}%`,
                   maxWidth: "350px",
