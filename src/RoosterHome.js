@@ -17,7 +17,7 @@ function RoosterHome() {
 return (
   <Container style={{
     margin: "2vw auto",
-    maxHeight: "80vw",
+    maxHeight: "80vh",
     maxWidth: "80vw",
           verticalAlign: "middle", 
           textAlign: "center"}}>
@@ -26,22 +26,26 @@ return (
         <Col style={{
           verticalAlign: "middle",
           alignItems: "center",
-          textAlign: "center"}}>
+          textAlign: "center",
+          maxHeight: "95vh"}}>
         <div style={{
-          display: "table-cell", 
           maxHeight: "80vw",
-          width: "60vw", 
           margin: "0 auto",
           verticalAlign: "middle",
           alignItems: "center",
           textAlign: "center"}}>
+            <span style={{display:"inline-block", height: "100%", verticalAlign:"middle"}}></span>
   <img 
   src={`${process.env.PUBLIC_URL}/ccc-assets/banner/${BANNER_IMAGES[counter % 10]}`}
   alt=""
   style={{
-    margin: "0 auto",
+    marginLeft: "50%",
+    transform: "translateX(-50%)",
     maxHeight: "60vh",
-    maxWidth: "60vw"
+    maxWidth: "60vw",
+    verticalAlign: "middle",
+          alignItems: "center",
+          textAlign: "center"
   }}/></div></Col>
   <Col></Col></Row></Container>
   )

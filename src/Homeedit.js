@@ -64,7 +64,7 @@ function Homeedit() {
         }}>
       <Navigation />
       <Container>
-      <Row style={{height:"100vw"}}>
+      <Row style={{height:"100vh"}}>
         <Col xs={0} sm={0} md={2} lg={3}></Col>
         <Col xs={12} sm={12} md={8} lg={6}>
     <RoosterHome />

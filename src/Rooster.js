@@ -13,7 +13,7 @@ function Rooster() {
         backgroundRepeat: "repeat",
         backgroundSize: "60%",
         padding: "2% 2% 2% 2%",
-        bacgkroundPosition: "fixed"
+        backgroundPosition: "fixed"
         }}>
       <Navigation />
       <Container>
