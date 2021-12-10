@@ -24,6 +24,7 @@ function Store() {
       width: "100vw",
       alignContent: "center",
       margin: "0 0",
+      width:"100vw",
       overflowX: "hidden"
       }}>
       <NavigationMerch />
