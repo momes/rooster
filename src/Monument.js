@@ -26,7 +26,6 @@ function Monument() {
                   style={{
                     filter: `invert(33%) sepia(18%) saturate(4468%) hue-rotate(94deg) brightness(100%) contrast(76%) opacity(80%)`,
                     visibility: (ICON_ROTATION[counter % 8] === num || num === 5 ? "visible" : "hidden"),
-                    height:"100%",
                     width:"100%"
                     }}/>
               </div>
