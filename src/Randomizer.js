@@ -54,16 +54,16 @@ function Randomizer(props) {
     }}, [addAsset, assets])
 
   return (
-    <div className="RandomContainer">
+    <div className="RandomContainer" style={{position:"relative"}}>
       {Object.keys(assets).map((asset) => (
         <img className="RandomAsset" 
               src={process.env.PUBLIC_URL + `/ccc-assets/${asset}.png`}
               alt={`${asset}country-chain-chapel`}
-              style={{position: "absolute",
+              style={{position: "fixed",
                   left: `${assets[asset][0]}vw`,
                   top: `${assets[asset][1]}vh`,
-                  maxWidth: "250px",
-                  maxHeight: "200px",
+                  maxWidth: "200px",
+                  maxHeight: "175px",
                   width: "70%",
                   filter: `${THEME_TO_FILTER[props.theme]}`
                 }} 
