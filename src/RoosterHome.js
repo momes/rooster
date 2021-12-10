@@ -16,17 +16,20 @@ function RoosterHome() {
   
 return (
   <Container style={{
-    marginTop: "2vw",
-    maxHeight: "60vh",
-    maxWidth: "60vw",
+    margin: "2vw auto",
+    maxHeight: "80vw",
+    maxWidth: "80vw",
           verticalAlign: "middle", 
           textAlign: "center"}}>
       <Row>
         <Col></Col>
-        <Col>
+        <Col style={{
+          verticalAlign: "middle",
+          alignItems: "center",
+          textAlign: "center"}}>
         <div style={{
           display: "table-cell", 
-          height: "60vh",
+          maxHeight: "80vw",
           width: "60vw", 
           margin: "0 auto",
           verticalAlign: "middle",
@@ -45,13 +48,3 @@ return (
 }
 
 export default RoosterHome;
-
-/*<img 
-src={`${process.env.PUBLIC_URL}/ccc-assets/1.jpg`}
-style={{
-  margin: "0 auto",
-  width: "100%"
-}}/>
-</Col>
-        </Row>
-  </div>*/

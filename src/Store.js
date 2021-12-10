@@ -17,11 +17,11 @@ function Store() {
     className="background"
     style={{
       backgroundImage: `url('${process.env.PUBLIC_URL}/ccc-assets/store-background.jpg')`,
-      backgroundRepeat: "no-repeat",
+      backgroundRepeat: "repeat",
       backgroundSize: "100%",
       padding: "2% 0% 2% 0%",
       backgroundAttachment: "fixed",
-      height: "140vh",
+      width: "100vw",
       alignContent: "center",
       margin: "0 0",
       overflowX: "hidden"
@@ -30,62 +30,69 @@ function Store() {
       <RandomizerRedo theme={'#1e832c'} />
       <Container>
         <Row>
-          <h2 style={{backgroundColor: "rgb(28, 28, 28)", padding:"1%"}}>Please send your order request with your name & address to <span><a href="mailto:management@nickdorian.com?subject = Nick Dorian Merch Order = Message">
+          <Col>
+          <h2 style={{backgroundColor: "rgb(28, 28, 28)", padding:"1%"}}>Please send your order request with your name & address to <span style={{maxWidth:"80vw"}}><a href="mailto:management@nickdorian.com?subject = Nick Dorian Merch Order = Message">
            management@nickdorian.com</a></span>. Thanks for your support!</h2>
-        </Row>
-        <Row style={{height: "60vh", marginBottom: "10vh", marginTop:"2vw"}}>
-          <Row><h3>Rooster Cream T-Shirt (S/M/L/XL) $25</h3></Row>
-          <Row>
+        </Col></Row>
+        <Row style={{minHeight: "40vh", marginBottom: "10vh", marginTop:"10vw"}}>
+          <Row style={{maxHeight:"15vh",padding:"0vw 2vw 2vw 2vw"}}>
+            <Col><h3 style={{color:"#1d842c", backgroundColor:"#e3d4b6"}}>Rooster Cream T-Shirt (S/M/L/XL) $25</h3>
+          </Col></Row><Row style={{padding:"2vw"}}>
           <Col>
           <img 
         src={`${process.env.PUBLIC_URL}/ccc-assets/merch/whiteshirt-front.png`}
         style={{
-          width: "100%"
+          maxWidth: "95%",
+          maxHeight:"95%"
         }}/>
         </Col>
         <Col>
           <img 
         src={`${process.env.PUBLIC_URL}/ccc-assets/merch/whiteshirt-back.png`}
         style={{
-          width: "100%"
+          maxWidth: "95%",
+          maxHeight:"95%"
         }}/>
         </Col></Row>
          </Row>
 
-         <Row style={{height: "60vh", marginBottom: "10vh", marginTop:"2vw"}}>
-          <Row><h3>Rooster Pink Long Sleeve Shirt (S/M/L/XL) $35</h3></Row>
-          <Row>
+         <Row style={{minHeight: "40vh", marginBottom: "10vh", marginTop:"2vw"}}>
+          <Row style={{padding:"2vw"}}>
+          <Col><h3 style={{color:"#491a0b", backgroundColor:"#eb9c83"}}>Rooster Pink Long Sleeve Shirt (S/M/L/XL) $35</h3></Col></Row>
+          <Row style={{padding:"2vw"}}>
           <Col>
           <img 
         src={`${process.env.PUBLIC_URL}/ccc-assets/merch/pinkshirt.png`}
         style={{
-          width: "100%"
+          maxWidth: "95%",
+          maxHeight:"95%"
         }}/>
         </Col>
         <Col>
         </Col></Row>
-        <Row style={{height: "60vh", marginBottom: "10vh", marginTop:"2vw"}}>
-          <Row><h3>Planet Stardom Black Long Sleeve Shirt (S/M/L/XL) $20</h3></Row>
-          <Row>
+        <Row style={{minHeight: "40vh", marginBottom: "10vh", marginTop:"10vw"}}>
+          <Row style={{padding:"2vw"}}><Col><h3 style={{color:"#46423d", backgroundColor:"#f2f2f1"}}>Planet Stardom Black Long Sleeve Shirt (S/M/L/XL) $20</h3></Col></Row>
+          <Row style={{padding:"5vw"}}>
           <Col>
           <img 
         src={`${process.env.PUBLIC_URL}/ccc-assets/merch/blackshirt.png`}
         style={{
-          width: "100%",
-          height: "87%"
+          maxWidth: "95%",
+          maxHeight:"95%"
         }}/>
         </Col>
         <Col>
         </Col></Row>
          </Row>
-         <Row style={{height: "60vh", marginBottom: "30vh", marginTop:"2vw"}}>
-          <Row><h3>Planet Stardom Canvas Tote $15</h3></Row>
-          <Row>
+         <Row style={{minHeight: "40vh", marginBottom: "30vh", marginTop:"2vw"}}>
+          <Row style={{padding:"2vw"}}><Col><h3 style={{color:"#161c23", backgroundColor:"#d9dfd1"}}>Planet Stardom Canvas Tote $15</h3></Col></Row>
+          <Row style={{padding:"5vw"}}>
           <Col>
           <img 
         src={`${process.env.PUBLIC_URL}/ccc-assets/merch/tote.png`}
-        style={{
-          width: "90%"
+        style={{      
+          maxWidth: "95%",
+          maxHeight:"95%"
         }}/>
         </Col>
         <Col>
