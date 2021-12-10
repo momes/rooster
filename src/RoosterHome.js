@@ -2,7 +2,7 @@ import './Home.css';
 import React, { useEffect, useState } from 'react';
 import './RoosterHome.css';
 import {Row, Col, Container} from 'react-bootstrap';
-const BANNER_IMAGES = ["nick-dorian.png","follow.jpeg","rooster.png","quint.jpeg","out-now.png","television.jpeg","petsonally-yours.png","follow.jpeg","comeon.png","quint.jpeg","rooster.png"]
+const BANNER_IMAGES = ["nick-dorian.png","follow.png","rooster.png","quint.jpeg","out-now.png","television.jpeg","petsonally-yours.png","follow.png","comeon.png","quint.jpeg","rooster.png"]
 
 
 function RoosterHome() {

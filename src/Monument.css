@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,900);  /* <-- Just for the demo, Yes I like pretty fonts... */
 
 .square {
     float:left;
@@ -43,6 +42,11 @@ li{
 /*  For responsive images */
 
 .content .rs{
+    width:100%;
+    height:100%;
+}
+
+.rs{
     width:100%;
     height:100%;
 }

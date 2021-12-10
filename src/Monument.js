@@ -25,7 +25,7 @@ function Monument() {
                   src={`${process.env.PUBLIC_URL}/ccc-assets/Icons/${num}.png`}
                   style={{
                     filter: `invert(33%) sepia(18%) saturate(4468%) hue-rotate(94deg) brightness(100%) contrast(76%) opacity(80%)`,
-                    visibility: (ICON_ROTATION[counter % 8] === num || num === 5 ? "visible" : "hidden")
+                    
                     }}/>
               </div>
           </div>
@@ -51,3 +51,4 @@ return (
 )
 }
 export default Monument;
+//visibility: (ICON_ROTATION[counter % 8] === num || num === 5 ? "visible" : "hidden")

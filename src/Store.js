@@ -31,8 +31,10 @@ function Store() {
       <Container>
         <Row>
           <Col>
-          <h2 style={{backgroundColor: "rgb(28, 28, 28)", padding:"1%"}}>Please send your order request with your name & address to <span style={{maxWidth:"80vw"}}><a href="mailto:management@nickdorian.com?subject = Nick Dorian Merch Order = Message">
-           management@nickdorian.com</a></span>. Thanks for your support!</h2>
+          <h2 style={{backgroundColor: "rgb(28, 28, 28)", padding:"1%"}}>Please send your order request with your name & address to 
+          <a href="mailto:management@nickdorian.com?subject = Nick Dorian Merch Order = Message">
+            <span style={{maxWidth:"80vw"}}>
+           management@nickdorian.com</span></a>. Thanks for your support!</h2>
         </Col></Row>
         <Row style={{minHeight: "40vh", marginBottom: "10vh", marginTop:"10vw"}}>
           <Row style={{maxHeight:"15vh",padding:"0vw 2vw 2vw 2vw"}}>
