@@ -27,34 +27,35 @@ function Projects() {
         </div>
       
       <Row style={{marginBottom: "5vw", marginTop:"2vw"}}>
-      <a href='https://ffm.to/roosternd'><Col xs={12} sm={4}>
+      <Col xs={12} sm={4}><a href='https://ffm.to/roosternd'>
+        <div>
       <img src={`${process.env.PUBLIC_URL}/ccc-assets/projects/rooster.jpg`}
       style={{maxWidth: "90%",
       maxHeight: "90%"}}/>
       <img src={`${process.env.PUBLIC_URL}/ccc-assets/projects/rooster-font.png`}
       style={{width: "90%", marginBottom:"5vw"}}/>
-      
-      </Col></a>
-      <a href='https://ffm.to/j45vpyl'><Col xs={12} sm={4}>
+      </div></a>
+      </Col>
+      <Col xs={12} sm={4}>
 
-      
+      <a href='https://ffm.to/j45vpyl'><div>
       <img src={`${process.env.PUBLIC_URL}/ccc-assets/projects/planet-stardom.jpg`}
       style={{maxWidth: "90%",
       maxHeight: "90%"}}/>
       <img src={`${process.env.PUBLIC_URL}/ccc-assets/projects/planet-stardom-font.png`}
       style={{width: "90%", marginBottom:"5vw"}}/>
       
-      </Col></a>
-      <a href='https://ffm.to/rx8paj5'><Col xs={12} sm={4}>
+      </div></a></Col>
+      <Col xs={12} sm={4}>
 
-      
+      <a href='https://ffm.to/rx8paj5'><div>
       <img src={`${process.env.PUBLIC_URL}/ccc-assets/projects/hamburg-style.jpg`}
       style={{maxWidth: "90%",
       maxHeight: "90%"}}/>
       <img src={`${process.env.PUBLIC_URL}/ccc-assets/projects/hamburg-style-font.png`}
       style={{width: "90%", marginBottom:"5vw"}}/>
-      
-      </Col></a>
+      </div>
+      </a></Col>
     </Row>
     <div style={{
           textAlign: "left",
@@ -64,22 +65,24 @@ function Projects() {
       style={{width: "15%"}}/>
         </div>
       <Row style={{marginBottom: "5vw", marginTop:"2vw"}}>
-      <a href='https://ffm.to/rrpeqqk'><Col xs={12} sm={4}>
+      <Col xs={12} sm={4}><a href='https://ffm.to/rrpeqqk'>
+        <div>
       <img src={`${process.env.PUBLIC_URL}/ccc-assets/projects/demos-for-daphne.jpg`}
       style={{maxWidth: "90%",
       maxHeight: "90%"}}/>
       <img src={`${process.env.PUBLIC_URL}/ccc-assets/projects/demos-for-daphne-font.png`}
       style={{width: "90%", marginBottom:"5vw"}}/>
-      
-      </Col></a>
-      <a href='https://ffm.to/aarqxk'><Col xs={12} sm={4}>
+      </div></a>
+      </Col>
+      <Col xs={12} sm={4}><a href='https://ffm.to/aarqxk'>
+        <div>
       <img src={`${process.env.PUBLIC_URL}/ccc-assets/projects/my-friend-dorian.jpg`}
       style={{maxWidth: "90%",
       maxHeight: "90%"}}/>
       <img src={`${process.env.PUBLIC_URL}/ccc-assets/projects/my-friend-dorian-font.png`}
       style={{width: "90%", marginBottom:"5vw"}}/>
-      
-      </Col></a>
+      </div></a>
+      </Col>
     </Row>
     </Container>
     </div>
