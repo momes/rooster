@@ -66,10 +66,10 @@ function Homeedit() {
       <Container>
       <Row style={{minHeight:"40vh"}}>
     <RoosterHome />
-      </Row>
+      </Row></Container>
       <Row>
       <Gallery theme={THEMES[currTheme]}/></Row>
-      </Container>
+      
   </div>
   );
 }
