@@ -21,16 +21,11 @@ return (
     maxWidth: "80vw",
           verticalAlign: "middle", 
           textAlign: "center"}}>
-      <Row>
-        <Col></Col>
-        <Col style={{
+      <Row style={{
           verticalAlign: "middle",
           alignItems: "center",
           textAlign: "center",
-          maxHeight: "95vh"}}>
-        <div style={{
-          maxHeight: "80vw",
-          margin: "0 auto",
+          maxHeight: "95vh",
           verticalAlign: "middle",
           alignItems: "center",
           textAlign: "center"}}>
@@ -46,8 +41,7 @@ return (
     verticalAlign: "middle",
           alignItems: "center",
           textAlign: "center"
-  }}/></div></Col>
-  <Col></Col></Row></Container>
+  }}/></Row></Container>
   )
 }
 

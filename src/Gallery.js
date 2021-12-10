@@ -22,13 +22,15 @@ function Gallery(props) {
         overflowX: "hidden",
         }}>
         <Row>
+          <Col xs>
         <img 
         src={`${process.env.PUBLIC_URL}/ccc-assets/2.jpg`}
         style={{
-          margin: "0 auto",
-          width: "90vw",
+          margin: "5vw auto",
+          width: "100%",
           padding: "2%"
         }}/>
+        </Col>
         </Row>
         <Row
          style={{

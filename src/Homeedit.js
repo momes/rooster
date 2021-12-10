@@ -64,14 +64,12 @@ function Homeedit() {
         }}>
       <Navigation />
       <Container>
-      <Row style={{height:"100vh"}}>
-        <Col xs={0} sm={0} md={2} lg={3}></Col>
-        <Col xs={12} sm={12} md={8} lg={6}>
+      <Row style={{minHeight:"40vh"}}>
     <RoosterHome />
-      </Col>
       </Row>
+      <Row>
+      <Gallery theme={THEMES[currTheme]}/></Row>
       </Container>
-      <Gallery theme={THEMES[currTheme]}/>
   </div>
   );
 }
