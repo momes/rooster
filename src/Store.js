@@ -36,11 +36,11 @@ function Store() {
         </Col></Row>
         <Row style={{minHeight: "40vh", marginBottom: "10vh", marginTop:"10vw"}}>
           <Row style={{maxHeight:"15vh",padding:"0vw 2vw 2vw 2vw"}}>
-            <Col><h3 style={{color:"#1d842c", backgroundColor:"#e3d4b6"}}>Rooster Cream T-Shirt (S/M/L/XL) $25</h3>
+            <Col><h3 style={{color:"#1d842c", backgroundColor:"#e3d4b6"}}>Rooster Cream T-Shirt Merch Pack (S/M/L/XL) $30</h3>
           </Col></Row><Row style={{padding:"2vw"}}>
           <Col>
           <img 
-        src={`${process.env.PUBLIC_URL}/ccc-assets/merch/whiteshirt-front.png`}
+        src={`${process.env.PUBLIC_URL}/ccc-assets/merch/rooster-merch.png`}
         style={{
           maxWidth: "95%",
           maxHeight:"95%"
@@ -48,30 +48,15 @@ function Store() {
         </Col>
         <Col>
           <img 
-        src={`${process.env.PUBLIC_URL}/ccc-assets/merch/whiteshirt-back.png`}
+        src={`${process.env.PUBLIC_URL}/ccc-assets/merch/rooster-merch-pack.png`}
         style={{
           maxWidth: "95%",
           maxHeight:"95%"
         }}/>
         </Col></Row>
          </Row>
-
-         <Row style={{minHeight: "40vh", marginBottom: "10vh", marginTop:"2vw"}}>
-          <Row style={{padding:"2vw"}}>
-          <Col><h3 style={{color:"#491a0b", backgroundColor:"#eb9c83"}}>Rooster Pink Long Sleeve Shirt (S/M/L/XL) $35</h3></Col></Row>
-          <Row style={{padding:"2vw"}}>
-          <Col>
-          <img 
-        src={`${process.env.PUBLIC_URL}/ccc-assets/merch/pinkshirt.png`}
-        style={{
-          maxWidth: "95%",
-          maxHeight:"95%"
-        }}/>
-        </Col>
-        <Col>
-        </Col></Row>
         <Row style={{minHeight: "40vh", marginBottom: "10vh", marginTop:"10vw"}}>
-          <Row style={{padding:"2vw"}}><Col><h3 style={{color:"#46423d", backgroundColor:"#f2f2f1"}}>Planet Stardom Black Long Sleeve Shirt (S/M/L/XL) $20</h3></Col></Row>
+          <Row style={{padding:"2vw"}}><Col><h3 style={{color:"#f2f2f1", backgroundColor:"#46423d"}}>Planet Stardom Black Long Sleeve Shirt (S/M/L/XL) $20</h3></Col></Row>
           <Row style={{padding:"5vw"}}>
           <Col>
           <img 
@@ -97,7 +82,6 @@ function Store() {
         </Col>
         <Col>
         </Col></Row>
-         </Row>
          </Row>
       </Container>
     </div>

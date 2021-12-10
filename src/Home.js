@@ -31,5 +31,27 @@ function Home() {
 }
 
 export default Home;
-
+// social links 
+{/* <ul class="nav justify-content-center mt-4">
+            <li class="nav-item">
+                <a class="nav-link active" href="https://www.instagram.com/_nickdorian_/">
+                    <span> <i class="fa fa-instagram text-white fa-2x"></i> </span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.youtube.com/channel/UClfLBgZJNkAz80KgodwbE0g/videos">
+                    <span> <i class="fa fa-youtube text-white fa-2x"></i> </span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/nickdorianmusic/">
+                    <span> <i class="fa fa-facebook text-white fa-2x"></i> </span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://twitter.com/tweetnickdorian">
+                    <span> <i class="fa fa-twitter text-white fa-2x"></i> </span>
+                </a>
+            </li>
+        </ul> */}
 
